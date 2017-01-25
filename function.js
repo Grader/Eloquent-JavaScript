@@ -58,7 +58,6 @@ isEven(25);
 isEven(20);
 isEven(16);
 isEven(15);
-
 /*
 Напишите функцию countBs, которая принимает строку в качестве аргумента, и возвращает количество символов “B”, содержащихся в строке.
 Затем напишите функцию countChar, которая работает примерно как countBs, только принимает второй параметр — символ, который мы будем искать в строке
@@ -90,3 +89,4 @@ const countChar = (str, symb) => {
 console.log(countChar('BarBara', 'a'));
 console.log(countChar('garBaraBB', 'B'));
 console.log(countChar('BBarBarassB B dB', 'r'));
+
